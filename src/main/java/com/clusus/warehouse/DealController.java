@@ -26,12 +26,5 @@ public class DealController {
         return new ResponseEntity("Please upload CSV file",HttpStatus.BAD_REQUEST);
     }
 
-    @GetMapping("/uploads")
-    public ResponseEntity<ResponseMessage> uploadFiles() {
-        CsvHelper.dealDataFromCsv(null);
-//        dealService.saveDealRecord(file);
-        return null;
-    }
-
 
 }

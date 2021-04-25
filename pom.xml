@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.clusus</groupId>
-    <artifactId>warehouse</artifactId>
+    <artifactId>data-warehouse</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>warehouse</name>
+    <name>data-warehouse</name>
     <description>Warehouse for Bloomberg</description>
     <properties>
         <java.version>1.8</java.version>
